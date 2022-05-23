@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>Nethor</id>
+        <version>2022.0.0</version>
+        <packageSourceUrl>https://nethor.com/download/</packageSourceUrl>
+        <owners>Are Chr. Taraldsen</owners>
+        <title>Nethor - Packet Analyzer and Visualizer</title>
+        <authors>Are Chr. Taraldsen</authors>
+        <projectUrl>https://nethor.com/</projectUrl>
+        <copyright>2022 Nethor</copyright>
+        <licenseUrl>https://nethor.com/</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <projectSourceUrl>https://nethor.com/</projectSourceUrl>
+        <docsUrl>https://nethor.com/</docsUrl>
+        <bugTrackerUrl>https://nethor.com/</bugTrackerUrl>
+        <tags>network analyzer wireshark tcp udp nethor</tags>
+        <summary>Nethor is a free packet analyzer and visualization tool for Windows that can capture and decode data packets.</summary>
+        <description>
+            Nethor is a free packet analyzer and visualization tool for Windows that can capture and decode data packets, and also allows working with multiple open PCAP/PCAPNG files, operated as one, from a modern UI.
+            It visualizes packets on a timeline, displays nodes on a world map and it lets you arrange connections in a matrix.
+            Nethor has many features and details to aid packet/network forensic and analysis.       
+    </description>
+        <releaseNotes>
+            [Nethor Release Notes](https://nethor.com/release-notes/)
+        </releaseNotes>
+        <dependencies>
+            <dependency id="chocolatey" version="0.9.8.20" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
