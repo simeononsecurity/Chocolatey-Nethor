@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 
 $targetPath = Join-Path -Path $Env:chocolateyPackageFolder -ChildPath tools
 $validExitCodes = @(0, 3010, 1641)
-$url = "https://softpedia-secure-download.com/dl/845a81ed96b6b23e3434b68c18756477/628be850/100262905/software/network/nethor-2022.0.0-setup.exe"
+$url = "https://www.oldergeeks.com/downloads/files/nethor-2022.0.0-setup.exe"
 $arguments = @{
     packageName    = 'nethor'
     #softwareName  = 'nethor*'
